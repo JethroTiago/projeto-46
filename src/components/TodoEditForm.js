@@ -1,11 +1,7 @@
 import React from 'react'
 
-const TodoEditForm = () => {
+export const TodoEditForm = () => {
   return (
-    <div>
-      
-    </div>
+    <div>TodoEditForm</div>
   )
 }
-
-export default TodoEditForm
