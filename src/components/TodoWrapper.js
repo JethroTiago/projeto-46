@@ -3,7 +3,7 @@ import { TodoForm } from './TodoForm'
 
 const TodoWrapper = () => {
   return (
-    <div>
+    <div className='TodoWrapper'>
       <TodoForm />
     </div>
   )
