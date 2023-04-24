@@ -43,6 +43,10 @@ body {
   color: #ffffff;
 }
 
+.todo-input::placeholder {
+  color: #ffffff6d;
+}
+
 .todo-btn {
   background: #8758ff;
   border-radius: 0 10px 10px 0;
@@ -50,4 +54,11 @@ body {
   border: none;
   padding: 0.55rem;
   cursor: pointer;
+  transition: ease 0.5s;
+}
+
+.todo-btn:hover {
+  background: #ffffff;
+  border-radius: 0 10px 10px 0;
+  color: #8758ff;
 }
