@@ -13,8 +13,41 @@ body {
   background-size: cover;
   background-position: center;
   min-height: 100vh;
+  display: flex;
+  justify-content: center;
 }
 
 .App {
   text-align: center;
+}
+
+.TodoWrapper {
+  background: #1A1A40;
+  margin-top: 5rem;
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+.TodoForm {
+  width: 100%;
+}
+
+.todo-input {
+  outline: none;
+  background: none;
+  border: 1px solid #8758ff;
+  border-radius: 10px 0 0 10px;
+  padding: 0.5rem 1rem;
+  margin: 1rem 0 2rem 0;
+  width: 300px;
+  color: #ffffff;
+}
+
+.todo-btn {
+  background: #8758ff;
+  border-radius: 0 10px 10px 0;
+  color: #ffffff;
+  border: none;
+  padding: 0.55rem;
+  cursor: pointer;
 }
