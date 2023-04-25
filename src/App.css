@@ -21,6 +21,12 @@ body {
   text-align: center;
 }
 
+h1 {
+  color: #FFFFFF;
+  margin-bottom: 0.5rem;
+  font-size: 1.75rem;
+}
+
 .TodoWrapper {
   background: #1A1A40;
   margin-top: 5rem;
