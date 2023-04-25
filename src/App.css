@@ -62,3 +62,15 @@ body {
   border-radius: 0 10px 10px 0;
   color: #8758ff;
 }
+
+.Todo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #8758ff;
+  color: #fff;
+  padding: 0.75rem 1rem;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
