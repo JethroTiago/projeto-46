@@ -3,6 +3,7 @@ import TodoForm from './TodoForm'
 import { v4 as uuidv4 } from 'uuid'
 import Todo from './Todo';
 import { editableInputTypes } from '@testing-library/user-event/dist/utils';
+import TodoEditForm from './TodoEditForm';
 uuidv4();
 
 const TodoWrapper = () => {
@@ -29,7 +30,15 @@ const TodoWrapper = () => {
       <h1>Get Things Done!</h1>
       <TodoForm addTodo={addTodo} />
       {todos.map((todo, index) => (
-        <Todo task={todo} key={index} toggleComplete={toggleComplete} deleteTodo={deleteTodo} editTodo={editTodo}/>
+        todo.isEditing ? (
+          <TodoEditForm />
+        ) : (
+          <Todo task={todo} 
+          key={index} 
+          toggleComplete={toggleComplete}
+          editTodo={editTodo} 
+          deleteTodo={deleteTodo} />
+        )
       ))}
     </div>
   )
