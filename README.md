@@ -4,7 +4,7 @@
 
 ### Deploy:
 
--- soon --
+https://dev-todo-nine.vercel.app/
 
 ### Visualização do Projeto:
 
